@@ -1,1 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.parent {
+    background-color: yellowgreen;
+    padding: 1rem;
+}
+
+.child {
+    background-color: rgb(215, 56, 56);
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+h1, h2 {
+    margin: 1rem 0;
+}
+
+input {
+    padding: 0.2rem;
+    margin-right: 1rem;
+}
+
+button {
+    padding: 0.2rem 0.5rem;
+}
+ul {
+    padding-left: 1rem;
+}
+
+li {
+    line-height: 2rem;
+}
+
+li>button {
+    margin-left: 1rem;
+}
