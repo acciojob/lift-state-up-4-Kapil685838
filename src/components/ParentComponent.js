@@ -2,7 +2,11 @@ import React, { useState } from 'react'
 import ChildComponent from './ChildComponent';
 
 function ParentComponent() {
-    const [cartItems, setCartItems] = useState([]);
+    const [cartItems, setCartItems] = useState([
+        { id: 1, name: 'Item 1', price: 10 },
+        { id: 2, name: 'Item 2', price: 20 },
+        { id: 3, name: 'Item 3', price: 30 }
+    ]);
     const [id, setId] = useState(1);
 
     // form input values
